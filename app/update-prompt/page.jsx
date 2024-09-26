@@ -6,10 +6,7 @@ import { useEffect, useState } from "react"
 
 const EditPrompt = () => {
     const [submitting, setsubmitting] = useState(false)
-    const [post, setPost] = useState({
-        prompt: '',
-        tag: ''
-    })
+    const [post, setPost] = useState({prompt: '', tag: ''})
     
     const router = useRouter()
     const searchParams = useSearchParams()
